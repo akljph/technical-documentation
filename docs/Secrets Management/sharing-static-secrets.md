@@ -68,7 +68,7 @@ You can find the complete list of parameters for these commands in the [CLI Refe
 
 ## Access Shared Secret
 
-Secrets that were shared by way of **Email** can be accessed directly from any browser, when working with **Token** flow, the recipient can use the CLI or using `curl` to unwrap the wrapping token for example using the CLI:
+Secrets that were shared by way of **Email** can be accessed directly from any browser. When working with **Token** flow, the recipient can use the CLI or using `curl` to unwrap the wrapping token for example using the CLI:
 
 ```shell
 akeyless unwrap-token --shared-token <shared token>
