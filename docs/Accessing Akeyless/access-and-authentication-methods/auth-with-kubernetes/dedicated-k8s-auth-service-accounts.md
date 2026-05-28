@@ -149,7 +149,7 @@ Upon successful creation, the response:
 >
 > Update each Kubernetes Auth config that uses this Auth Method with the new private key before authenticating.
 
-#### Create Kubernetes Gateway Auth Config Using Bearer Tokens
+### Create Kubernetes Gateway Auth Config Using Bearer Tokens
 
 To [discover your Kubernetes ServiceAccount issuer](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#service-account-issuer-discovery) run the following command:
 
