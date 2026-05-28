@@ -80,7 +80,7 @@ kubectl apply -f akl_gw_token_reviewer.yaml
         --output 'go-template={{ .data.token | base64decode }}')
     ```
 
-#### Bearer Token Extraction for Kubernetes Server V1.24 or Higher
+### Bearer Token Extraction for Kubernetes Server V1.24 or Higher
 
 Kubernetes won’t generate Secrets automatically for ServiceAccounts, to get your ServiceAccount token, run the following commands instead:
 
